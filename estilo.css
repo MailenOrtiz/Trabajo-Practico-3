@@ -63,6 +63,74 @@ h1 {
     padding: 15px;
     border: 1px solid #F53A50;
     border-radius: 8px;
-    color:#F53A50 ;
     font-weight: 900;
 }
+
+.boton1 > a {
+    text-decoration: none;
+    color:#F53A50 ;
+
+}
+
+/* SECCION 2 */
+
+.seccion2 {
+    margin: 50px;
+}
+
+.cajas {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img2 {
+    width: 250px;
+    box-shadow: 0 0 6px #F53A50;
+    margin: 20px 0px 30px 0px;
+}
+
+.productrange {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50px;
+    color: #F53A50;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 30px 0px;
+}
+
+.texto2 > h3 {
+    color: #F53A50;
+    padding: 0px 0px 20px 0px;
+    font-size: 22px;
+
+}
+
+.texto2 > p {
+    font-size: 14px;
+    line-height: 22px
+}
+
+.texto2 > button {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 15px 45px 15px 45px;
+    background-color: #F53A50;
+    color: white;
+    border: none;
+    border-radius: 9px;
+}
+
+.boton2 > a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
