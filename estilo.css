@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;600&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin: 10px;
+}
+
+nav > a {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+
+.logo {
+    width: 150px;
+    margin: 0px 10px 0px 10px;
+
+}
+
+/* SECCION 1 */
+
+.hero {
+    background-image: url(imagenes/pug.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    
+}
+
+.textohero {
+    font-family: 'Work Sans', sans-serif;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+
+h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 75px;
+}
+
+.textohero > h2 {
+    font-weight: 200;
+    color: white;
+    padding: 30px 0px 40px 0px;
+}
+
+.textohero > button {
+    padding: 15px;
+    border: 1px solid #F53A50;
+    border-radius: 8px;
+    color:#F53A50 ;
+    font-weight: 900;
+}
