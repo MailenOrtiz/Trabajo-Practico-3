@@ -86,8 +86,9 @@ h1 {
 
 .img2 {
     width: 230px;
-    box-shadow: 0 0 4px #FC697B;
+    box-shadow: 1px 1px 8px  #f53a504f;
     border: none;
+    border-radius: 7px;
     margin: 20px 0px 30px 0px;
 }
 
@@ -237,7 +238,7 @@ h1 {
     display: block;
     padding:4px 0px 10px 0px ;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 17px;
     color: black;
     z-index: 1;
 }
@@ -256,15 +257,19 @@ h1 {
 }
 
 .cajasseccion5 {
-    margin: 60px 0px 100px 0px;
+    margin: 70px 0px 120px 0px;
     position: absolute;
     right: 320px;
 
     
 }
 
+.cajas5 > h3 {
+    padding-bottom: 9px;
+}
+
 .cajas5 {
-    font-size: 15px;
+    font-size: 13px;
     background-color: white;
     box-shadow: 0 0 4px #FC697B;
     border-radius: 10px;
@@ -274,6 +279,98 @@ h1 {
     right: 40%;
     flex-direction: column;  
     margin: 40px;  
-    padding: 15px;
+    padding: 15px 10px 15px 50px;
 }
 
+.iconos5 > img {
+    width: 60px;
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    right: 81%;
+    border-radius: 5px;
+}
+
+
+/* SECCION 6 */
+
+.seccion6 {
+    background-color: #fff5f6;
+    padding: 60px 90px 60px 90px;
+}
+
+.seccion6 > h2 {
+    color: #F53A50;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    padding-bottom: 60px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.reviews {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0px 90px 0px 100px;
+}
+
+.cajas6 > h3 {
+    color: #F53A50;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    padding-bottom: 35px;
+    font-size: 25px;
+    text-align: center; 
+}
+
+.cajas6 > p {
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.huellita > img {
+    width: 100px;
+padding-left: 40px;
+}
+
+
+/* SECCION 7 */
+
+.seccion7 {
+    display: flex;
+    padding: 90px 90px 60px 90px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.izquierda7 > img {
+    width: 450px;
+    padding: 60px 100px 40px 70px
+}
+
+.derecha7 {
+    margin: 20px 50px 20px 20px ;
+}
+
+.derecha7 > h2{
+    color: #F53A50;
+    font-weight: 600;
+    padding-bottom: 20px;
+    font-size: 45px;
+}
+
+.derecha7 > p {
+    padding-bottom: 20px;
+}
+
+.subtexto {
+    padding-bottom: 20px;
+}
+
+.texto7 > span {
+    color: #F53A50;
+    font-weight: 600;
+}
