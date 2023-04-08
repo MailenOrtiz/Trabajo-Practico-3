@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;600&display=swap');
+
+
 * {
     padding: 0px;
     margin: 0px;
@@ -387,4 +389,125 @@ padding-left: 40px;
 
 .seccion9 {
     padding: 90px;
+    font-family: 'Work Sans', sans-serif;
 }
+
+.seccion9 > h2 {
+    display: block;
+    color: #F53A50;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    padding-bottom: 50px;
+    font-size: 45px;
+    text-align: center;
+}
+
+form {
+    padding: 0px 90px 0px 180px;
+}
+
+.form1 {
+    display: flex;
+    justify-content: center;
+    padding: 0px 2px 30px 0px;
+}
+
+.form2, .form3 {
+    display: grid;
+    justify-content: center;
+    padding: 0px 40px 30px 40px;
+}
+
+label > span {
+    color:#F53A50;
+
+}
+
+.subform1 > input {
+    padding: 13px 80px 13px 10px;
+
+}
+
+.form2  {
+    justify-content: left;
+    padding:10px 0px 20px 128px;
+    }
+
+.form2 > input {
+    padding: 13px 400px 13px 10px;
+    margin-right: 0px;
+
+}
+
+.form3 {
+    justify-content: left;
+    padding:10px 0px 20px 128px;
+}
+
+.form3 > input {
+    padding: 13px 400px 150px 10px;
+    margin-right: 0px;
+}
+
+label {
+    display: block;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    font-weight: 600;
+}
+
+input {
+    margin-right: 60px;
+    box-shadow: 1px 1px 8px  #f53a504f;
+    border: none;
+    border-radius: 7px;
+}
+
+.botoncontact {
+    text-align: center;
+    text-decoration: none;
+    padding-right: 55px;
+
+}
+
+.botoncontact > button {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 15px 40px 15px 40px;
+    background-color: #F53A50;
+    border: none;
+    border-radius: 9px;
+    text-decoration: none;
+}
+
+.botoncontact9 > a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 40px 15px 40px;
+}
+
+/* FOOTER */
+
+.fondocolor {
+    background-image: linear-gradient(29deg, #C94970 0%, #AB1367 0%, #F53A50 83%, #FC697B 95.43895721435547%);
+    padding-top: 60px;
+}
+
+.fondocolor > img {
+    width: 30%;
+    display: flex;
+}
+
+.iconofooter {
+    justify-content: center;
+    text-align: center;
+    padding: 0px 0px 40px 0px;
+}
+
+
+.ic {
+    padding: 10px;
+    color: white;
+}
+
