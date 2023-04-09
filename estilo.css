@@ -21,6 +21,7 @@ nav > a {
     text-decoration: none;
     color: black;
     margin: 20px;
+    transition: 0.2s;
 }
 
 nav > a:hover {
@@ -66,7 +67,7 @@ h1 {
 
 .boton1 > button {
     padding: 15px;
-    border: none;
+    border: 2px solid white;
     border-radius: 8px;
     cursor: pointer;
     font-weight: 900;
@@ -78,7 +79,6 @@ h1 {
 .boton1 > button:hover{
     transition: 0.3s;
     background-color: #f53a5000;
-    border: 1px solid #fff5f6;
     color: white;
 }
 
@@ -152,9 +152,8 @@ h1 {
 /* SECCION 3 */
 
 .seccion3 {
-    background: #C94970;
     background-image: linear-gradient(29deg, #C94970 0%, #AB1367 0%, #F53A50 83%, #FC697B 95.43895721435547%);
-    padding: 60px;
+    padding: 50px 0px 120px 0px;
 }
 
 .texto3 > h3 {
@@ -178,22 +177,11 @@ h1 {
 }
 
 .boton3 > button {
-/*    display: flex;
-    justify-content: center;
-    background-color: white;
-    color: #F53A50;
-    border: none;
-    border-radius: 9px;
-    text-decoration: none;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 600;
-*/
-
+    position: absolute;
+    right: 43%;
     margin-top: 10px;
-    padding: 15px 30px 15px 30px;
-
     padding: 15px;
-    border: none;
+    border: 2px solid white;
     border-radius: 8px;
     cursor: pointer;
     font-weight: 900;
@@ -202,6 +190,11 @@ h1 {
     transition: 0.3s;
     justify-content: center;
     text-align: center;
+}
+
+.boton3 >button:hover {
+    background-color: #ab136700;
+    color: white;
 }
 
 
@@ -227,8 +220,14 @@ h1 {
     font-family: 'Work Sans', sans-serif;
     font-size: 40px;
     left: 64%;
-    top: 323%;
+    top: 332%;
     transform: translate(-25%, -235%);
+    transition: 0.4s;
+    cursor: default;
+}
+
+.petshappy:hover {
+    color: #F53A50;
 }
 
 /* SECCION 5 */
@@ -240,8 +239,6 @@ h1 {
     display: flex;
     flex-direction: row;
     position: relative
-
-   
 }
 
 .aboutus {
@@ -254,7 +251,6 @@ h1 {
     font-weight: 600;
     padding-bottom: 35px;
     font-size: 45px;
-    
 }
 
 .aboutus > p {
@@ -266,6 +262,7 @@ h1 {
     color: black;
     z-index: 1;
 }
+
 
 .fondo5 {
     position: relative;
@@ -283,9 +280,7 @@ h1 {
 .cajasseccion5 {
     margin: 70px 0px 120px 0px;
     position: absolute;
-    right: 320px;
-
-    
+    right: 320px;  
 }
 
 .cajas5 > h3 {
@@ -304,7 +299,13 @@ h1 {
     flex-direction: column;  
     margin: 40px;  
     padding: 15px 10px 15px 50px;
+    transition: 0.2s;
 }
+
+.cajas5:hover {
+    padding-right: 55px;
+}
+
 
 .iconos5 > img {
     width: 60px;
@@ -404,8 +405,30 @@ padding-left: 40px;
 .seccion8 {
     background: #C94970;
     background-image: linear-gradient(29deg, #C94970 0%, #AB1367 0%, #F53A50 83%, #FC697B 95.43895721435547%);
-    padding: 60px;
+    padding: 50px 0px 120px 0px;
 }
+
+.boton4 > button{
+    position: absolute;
+    right: 44%;
+    margin-top: 10px;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 900;
+    text-decoration: none;
+    color:#F53A50 ;
+    transition: 0.3s;
+    justify-content: center;
+    text-align: center;
+}
+
+.boton4 >button:hover {
+    background-color: #ab136700;
+    color: white;
+}
+
 
 /* SECCION 9 */
 
@@ -491,21 +514,27 @@ input {
     margin-right: 90px;
 }
 
-.botoncontact > button {
+.botoncontact9 > button {
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
     margin-top: 20px;
     padding: 15px 65px 15px 65px;
     background-color: #F53A50;
-    border: none;
+    border: 2px solid #F53A50;
     border-radius: 9px;
-    text-decoration: none;
+    color: white;
+    transition: 0.2s ;
+    cursor: pointer;
 }
 
-.botoncontact9 > a {
-    text-decoration: none;
-    color: white;
+.botoncontact9 > button:hover {
+    background-color: #ff008c00;
+    color: #FC697B;
+    transform: scale(1.10);
+
 }
+
+
 
 /* FOOTER */
 
@@ -532,6 +561,7 @@ input {
     padding: 15px;
     color: white;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .final {
